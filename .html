@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UK Patriotic & Celebration Collection</title>
+  <style>
+    :root {
+      --primary: #b22234;
+      --primary-dark: #8b0000;
+      --accent: #3c3b6e;
+      --bg: #f9f9f9;
+      --card-bg: #ffffff;
+      --text: #333333;
+      --text-muted: #666666;
+      --border: #e0e0e0;
+      --radius: 12px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, var(--accent), var(--primary-dark));
+      color: white;
+      border-radius: var(--radius);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: var(--accent);
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 12px;
+      color: var(--primary-dark);
+    }
+
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 15px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      font-weight: 600;
+      font-size: 0.75rem;
+      padding: 4px 8px;
+      border-radius: 4px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .features-list {
+      list-style-type: disc;
+      padding-left: 20px;
+      margin-bottom: 20px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    .features-list li {
+      margin-bottom: 6px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      border-top: 1px solid var(--border);
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Patriotic & Celebration Collection</h1>
+      <p>Union Jack Flags, Blankets, Handheld Decor, and Jewelry Sets</p>
+    </header>
+
+    <main>
+      <h2 class="section-title">Featured Celebration Items</h2>
+      
+      <div class="grid">
+        <!-- Item 1 -->
+        <div class="card">
+          <div>
+            <span class="badge">Accessories</span>
+            <h3>7" Patriotic Red, White, Blue Rhinestone Beaded Stretch Bracelet</h3>
+            <p>Sparkling stretch bracelet featuring patriotic red, white, and blue rhinestones.</p>
+            <ul class="features-list">
+              <li>7-inch stretch fit</li>
+              <li>Rhinestone beaded design</li>
+              <li>Patriotic color scheme</li>
+            </ul>
+          </div>
+          <div>
+            <p><strong>Category:</strong> Jewelry / Wearable</p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="card">
+          <div>
+            <span class="badge">Flags & Parties</span>
+            <h3>Pack of 4 Union Jack Hand Flags (12x8" with Sticks Pole)</h3>
+            <p>Royal decoration party hand flags complete with sticks for easy waving.</p>
+            <ul class="features-list">
+              <li>Pack of 4 flags</li>
+              <li>Size: 12x8 inches</li>
+              <li>Includes poles/sticks for royal events</li>
+            </ul>
+          </div>
+          <div>
+            <p><strong>Use:</strong> Party Decoration</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="card">
+          <div>
+            <span class="badge">Flags & Parties</span>
+            <h3>Union Jack Rayon Flag With Stick (Large - Handheld)</h3>
+            <p>Handheld decorative flag ideal for jubilees, parties, and celebratory waving.</p>
+            <ul class="features-list">
+              <li>Large handheld size</li>
+              <li>Rayon material for clean waving</li>
+              <li>Includes stick handle</li>
+            </ul>
+          </div>
+          <div>
+            <p><strong>Use:</strong> Jubilee & Parades</p>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="card">
+          <div>
+            <span class="badge">Home & Comfort</span>
+            <h3>Union Jack Blanket Flag Throw</h3>
+            <p>Cozy celebration blanket gift suitable for kids, adults, and special events.</p>
+            <ul class="features-list">
+              <li>Union Jack design throw</li>
+              <li>Suitable for kids and adults</li>
+              <li>Great celebration gift</li>
+            </ul>
+          </div>
+          <div>
+            <p><strong>Category:</strong> Blanket / Throw</p>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="card">
+          <div>
+            <span class="badge">Home & Comfort</span>
+            <h3>Red Hand Of Ulster Blanket Throw</h3>
+            <p>Commemorative blanket featuring the Red Hand of Ulster, ideal for parades and gifts.</p>
+            <ul class="features-list">
+              <li>Red Hand of Ulster motif</li>
+              <li>Gift choice for kids, adults, and grandparents</li>
+              <li>Ideal for parades and celebrations</li>
+            </ul>
+          </div>
+          <div>
+            <p><strong>Category:</strong> Blanket / Throw</p>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="card">
+          <div>
+            <span class="badge">Flags</span>
+            <h3>Union Jack United Kingdom Flag With Eyelets (5x3 FT)</h3>
+            <p>Standard large UK national flag equipped with durable metal eyelets for hanging.</p>
+            <ul class="features-list">
+              <li>Size: 5x3 FT (90x150 cm)</li>
+              <li>Features brass/metal eyelets</li>
+              <li>Classic Union Jack design</li>
+            </ul>
+          </div>
+          <div>
+            <p><strong>Mounting:</strong> Eyelets Included</p>
+          </div>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="card">
+          <div>
+            <span class="badge">Flags</span>
+            <h3>England St George Cross Flag With Eyelets (5x3 FT)</h3>
+            <p>Traditional England flag featuring the red cross of St George with hanging eyelets.</p>
+            <ul class="features-list">
+              <li>Size: 5x3 FT (90x150 cm)</li>
+              <li>Equipped with hanging eyelets</li>
+              <li>St George Cross motif</li>
+            </ul>
+          </div>
+          <div>
+            <p><strong>Mounting:</strong> Eyelets Included</p>
+          </div>
+        </div>
+
+        <!-- Item 8 -->
+        <div class="card">
+          <div>
+            <span class="badge">Flags</span>
+            <h3>Ulster Banner Flag With Eyelets (5x3 FT)</h3>
+            <p>Official-style Ulster Banner flag complete with integrated eyelets for easy display.</p>
+            <ul class="features-list">
+              <li>Size: 5x3 FT (90x150 cm)</li>
+              <li>Durable hanging eyelets</li>
+              <li>Ulster Banner design</li>
+            </ul>
+          </div>
+          <div>
+            <p><strong>Mounting:</strong> Eyelets Included</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; UK Patriotic & Celebration Collection. All rights reserved.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
